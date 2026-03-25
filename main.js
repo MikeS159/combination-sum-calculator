@@ -26,7 +26,7 @@ var findCombinations = function findCombinations(candidates, target) {
   }
 
   backtrack(0, [], 0);
-  return results;
+  return results.reverse();
 };
 
 /**
